@@ -1,0 +1,129 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d4bda0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #5c3e0d ;
+}
+ .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*height: 100vh;*/
+ }
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #556b2f; /* Puedes ajustar el color aquí */
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    /*border-top: 15px solid black;  Puedes ajustar el color aquí */
+    border-bottom: 15px solid #556b2f;
+    margin-top: 10px;
+}
+
+.cambiaIta {
+    color:  #556b2f 
+}
+  
+.cambiaEsp{
+    color:  #556b2f ;
+    margin-top: 8px;
+}
+
+main {
+    padding: 20px;
+}
+
+.Preghiera {
+    text-align: center;
+}
+
+.button {
+    background-color: hsl(119, 70%, 73%);
+    /*background-image: radial-gradient(circle, hsl(119, 70%, 73%),#D4BD9F);*/
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+/* p {
+    line-height: 0.8 !important; /* Reducir el espacio entre párrafos 
+}
+
+.storia {
+    line-height: 1.5 !important;
+
+} */
+section {
+    margin-bottom: 40px;
+}
+
+#textoStoria {
+    line-height: 5 !important; /* Puedes ajustar este valor según tus necesidades */
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* #imagen-container {
+    max-width: 100%;
+    height: auto;
+} */
+
+
+
+.prayer {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    color: #c0392b; /* Rojo oscuro */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (min-width: 992px) {
+    #imagen-container {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  
+  
